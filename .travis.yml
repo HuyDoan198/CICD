@@ -3,10 +3,8 @@ os: windows
 node_js:
   - 14
 script:
-  - echo '*** Starting build ***'
-  - echo 'install dependencies'
+  
   - npm install
-  - echo 'Running test'
   - npm test
 deploy:
   provider: heroku
