@@ -3,13 +3,9 @@ os: windows
 node_js:
   - 14
 script:
-  
-  - npm install
+  - npm ci
   - npm test
 deploy:
   provider: heroku
   api_key: $heroku_key
   app: Test-CI/CD-App
-  strategy: git
-  run:
-  - restart
