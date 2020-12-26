@@ -11,3 +11,6 @@ deploy:
   provider: heroku
   api_key: 019a7dc0-466b-4a59-8e1b-c36d7b53e925
   app: Test-CI/CD App
+  strategy: git
+  run:
+  - restart
