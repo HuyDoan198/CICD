@@ -7,7 +7,6 @@ node_js:
   - 11
 script:
 - npm i
-- npm run test
 deploy:
   provider: heroku
   api_key: $heroku_key
