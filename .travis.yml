@@ -1,13 +1,10 @@
 language: node_js
-os: windows
-node_js:
-  - 14
-  - 13
-  - 12
-  - 11
-script:
+node_js: 14.14.0
+
+install: 
 - npm i
-deploy:
-  provider: heroku
-  api_key: $heroku_key
-  app: Test-CI/CD-App
+
+script:
+- npm test
+
+
