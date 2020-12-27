@@ -6,8 +6,9 @@ node_js:
   - 12
   - 11
 script:
-
+- npm i
+- npm run test
 deploy:
   provider: heroku
-  api_key: 9a0584dd-46c2-41a4-a6dc-c1d514d24470
+  api_key: $heroku_key
   app: Test-CI/CD-App
