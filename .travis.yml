@@ -5,4 +5,9 @@ install:
 - npm i
 
 script:
-- npm test
+- npm run test
+
+deploy:
+  provider: heroku
+  api_key: $heroku_key
+  app: CICD_APP
