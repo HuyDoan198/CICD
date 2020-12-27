@@ -10,5 +10,5 @@ script:
   - npm test
 deploy:
   provider: heroku
-  api_key: 05d995c9-75f2-4662-becd-d3918aac5877
+  api_key: 9a0584dd-46c2-41a4-a6dc-c1d514d24470
   app: Test-CI/CD-App
