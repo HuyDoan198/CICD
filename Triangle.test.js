@@ -9,9 +9,9 @@ const p5 = new Point(0,2);
 const p6 = new Point(2,0);
 const p7 = new Point(-2,0);
 const p8 = new Point(0,5);
-const p9 = new Point(0,5);
-const p10 = new Point(0,5);
-const p11 = new Point(0,5);
+const p9 = new Point(a,b);
+const p10 = new Point(a,c);
+const p11 = new Point(b,c);
 
 
 //tam giac thuong => True
