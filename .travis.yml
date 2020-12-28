@@ -5,7 +5,7 @@ install:
 - npm i
 
 script:
-- npm run test
+- npm  test
 
 deploy:
   provider: heroku
