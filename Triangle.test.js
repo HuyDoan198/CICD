@@ -9,9 +9,9 @@ const p5 = new Point(0,2);
 const p6 = new Point(2,0);
 const p7 = new Point(-2,0);
 const p8 = new Point(0,5);
-// const p9 = new Point(a,b);
-// const p10 = new Point(a,c);
-// const p11 = new Point(b,c);
+const p9 = new Point(a,b);
+const p10 = new Point(a,c);
+const p11 = new Point(b,c);
 
 
 //tam giac thuong => True
@@ -44,11 +44,11 @@ test('Kiểm tra tam giác vuông cân ?', () => {
     expect(tg5.loaiTamGiac()).toBe("Tam giác vuông cân");
 })
 
-// // test point not a number => Fail
-// const tg6 = new Triangle(p9,p10,p11);
-// test('Test poit is not a number ?', () => {
-//     expect(tg6.loaiTamGiac()).toBe("Invalid input");
-// })
+// test point not a number => Fail
+const tg6 = new Triangle(p9,p10,p11);
+test('Test poit is not a number ?', () => {
+    expect(tg6.loaiTamGiac()).toBe("Invalid input");
+})
 
 
 
