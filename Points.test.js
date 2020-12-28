@@ -25,8 +25,8 @@ test("calculate distance between 2 point p1,p3", () => {
 const p4 = new Point(a,b);
 const p5 = new Point(c,d);
 
-// input fail 
-test("test point is char", () => {
-  expect(Point.distance(p4, p5)).toBe(5);
-});
+// // input fail 
+// test("test point is char", () => {
+//   expect(Point.distance(p4, p5)).toBe(5);
+// });
 
